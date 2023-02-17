@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage | SnippetBox</title>
-</head>
-<body>
-    <header>
-        <h1><a href="/">Snippetbox</a></h1>
-    </header>
-    <nav>
-        <a href="/">Homepage</a>
-    </nav>
-    <main>
-        <h2>Last notes</h2>
-        <p>No notes here yet!</p>
-    </main>
-</body>
-</html>
+{{template "base" .}}
+
+{{define "title"}}Homepage | SnippetBox{{end}}
+
+{{define "main"}}
+    <h2>Last notes</h2>
+    <p>No notes here yet!</p>
+{{end}}
